@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Jupyter
+.ipython/
+
+# Raw and processed geospatial data (keep large rasters out of Git)
+data/
+*.tif
+*.tiff
+*.jp2
+*.vrt
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Local outputs
+outputs/
+figures/
+*.log
+.DS_Store
+Thumbs.db
